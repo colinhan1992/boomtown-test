@@ -1,6 +1,6 @@
 Hello,
 
-This is my submission for the BoomTownROI coding assessment. The requirements were as follows:
+I'm Colin Han and this is my submission for the BoomTownROI coding assessment. The requirements were as follows:
 
 **NOTE: Jared mentioned on the phone that any language was acceptable to complete the project in so I went and built a simple react app that fulfills the requirements**
 
