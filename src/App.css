@@ -2,6 +2,7 @@
   background-color: #282c34;
   min-height: 100vh;
   color: white;
+  padding-bottom: 24px;
 }
 
 .App-header {
@@ -12,6 +13,10 @@
 
 .data-display {
   min-width: 24em;
+}
+
+.verification {
+  padding: 24px;
 }
 
 .loading-msg {

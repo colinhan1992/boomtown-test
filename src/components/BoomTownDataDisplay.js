@@ -20,7 +20,7 @@ const BoomTownDataDisplay = ({
         if (status === 200) {
           setData(data);
         } else {
-          setError('Data could not be retrieved');
+          setError(`No data for ${dataTitle} found`);
         }
         getRepos(data);
       } catch (e) {
@@ -28,7 +28,7 @@ const BoomTownDataDisplay = ({
       }
     };
     fetchData();
-  }, [dataURL]);
+  }, [dataURL, dataTitle]);
 
   return (
     <div className="data-display">

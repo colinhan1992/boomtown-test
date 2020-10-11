@@ -71,8 +71,8 @@ function App() {
             dataNameField="login"
           ></BoomTownDataDisplay>
           <Fragment>
-            <div>
-              <h3>Verification</h3>
+            <div className="verification">
+              <h2>Verification</h2>
               <p>Is the 'created_at' date before the 'updated_at' date?</p>
               {new Date(
                 topLevelData.created_at < new Date(topLevelData.updated_at)
