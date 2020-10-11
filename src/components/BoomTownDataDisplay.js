@@ -1,4 +1,4 @@
-import React, { useEffect, useState, Fragment } from 'react';
+import React, { useEffect, useState } from 'react';
 import PropTypes from 'prop-types';
 
 const BoomTownDataDisplay = ({
@@ -10,6 +10,7 @@ const BoomTownDataDisplay = ({
   const [data, setData] = useState(null);
   const [error, setError] = useState(null);
 
+  //   Gets Github Data and puts it into state (or displays error)
   useEffect(() => {
     const fetchData = async () => {
       try {

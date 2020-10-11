@@ -6,6 +6,7 @@ function App() {
   const [topLevelData, setToplevelData] = useState(null);
   const [repos, setRepos] = useState(null);
 
+  // Load initial top-level data on page-load
   useEffect(() => {
     const fetchTopData = async () => {
       try {
@@ -22,6 +23,7 @@ function App() {
     fetchTopData();
   }, []);
 
+  // Gets array of repositories and sets it in state
   const getRepos = repos => setRepos(repos);
 
   return (
